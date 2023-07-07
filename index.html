@@ -1,19 +1,28 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head lang="en">
+        <!-- STYLESHEETS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
+        <!-- GOOGLE FONTS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+        <!-- FONT AWESOME -->
+        <script src="https://kit.fontawesome.com/7c85686bf5.js" crossorigin="anonymous"></script>
+        <!-- TITLE & META -->
+        <title>Unit Converter | Kaila Bullard - dev</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <!-- header/input -->
-        <div id="container-1">
-            <h1>Metric/Imperial Unit Conversion</h1>
+        <div class="input-container">
+            <h1 class="title">Metric/Imperial Unit Conversion</h1>
             <input id="input-el">
             <button id="btn-el">Convert</button>    
         </div>
         <!-- conversions/output -->
-        <div id="container-2">
+        <div class="output-container">
             <div class="cards">
                 <h3>Length (Meter/Feet)</h3>
                 <p id="length-el">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
@@ -27,6 +36,12 @@
                 <p id="mass-el">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos
             </div>
         </div>
+        <footer>
+            <p>©️ 2023 Developed by Kaila Bullard</p>
+            <a href="https://github.com/napqueenkaila">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </footer>
         <script src="index.js"></script>
     </body>
 </html>

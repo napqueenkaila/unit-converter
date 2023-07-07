@@ -5,7 +5,7 @@ body {
     box-sizing: border-box;
 }
 
-#container-1{
+.input-container{
     background: #6943FF;
     color: #ffffff;
     font-weight:800;
@@ -14,8 +14,8 @@ body {
     align-items:center;
 }
 
-h1{
-    font-size:28px;
+.title{
+    font-size:1.75rem;
 }
 
 input{
@@ -25,47 +25,60 @@ input{
     border-radius:5px;
     text-align:center;
     font-family: 'Inter', sans-serif;
-    font-size:58px;
+    font-size:3.625rem;
     font-weight:800;
     color:#ffffff;
     background:#6943FF;
-    margin:25px;
+    margin:1em;
 }
 
 button{
-    width:115px;
-    height:40px;
-    font-size:16px;
+    padding: 1em 2em;
+    font-size:1rem;
     font-weight:500;
     border-radius:5px;
-    margin-bottom:35px;
+    margin-bottom:2em;
 }
 
-#container-2{
+.output-container{
     background:#1F2937;
     display:flex;
     flex-direction:column;
     align-items:center;
-    padding:35px;
+    padding:2em;
 }
 
 .cards{
     background:#273549;
-    width:500px;
-    height:110px;
+    width:100%;
+    max-width: 500px;
     border-radius:4px 0px 0px 0px;
-    box-sizing:border-box; 
-    margin:15px;
-    padding:
+    margin:1em;
+    padding: 1em;
 }
 
 h3{
     color:#CCC1FF;
-    font-size:20px;
+    font-size:1.25rem;
     font-weight:600;
 }
 
 p{
     color:#ffffff;
-    font-size:14px;
+    font-size:0.875rem;
+}
+
+footer{
+    background: #6943FF;
+    color: whitesmoke;
+    font-size: 1rem;
+    padding: 2em;
+}
+
+footer p{
+    margin-top: 0;
+}
+
+footer a{
+    color: whitesmoke;
 }
